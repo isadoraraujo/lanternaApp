@@ -44,6 +44,7 @@ export default function App() {
                 : require("./assets/eco-light-off.png")
             }
           />
+          <Text style={style.text}>GitHub: @isadoraraujo</Text>
         </TouchableOpacity>
       </View>
     </>
@@ -75,5 +76,11 @@ const style = StyleSheet.create({
     tintColor: "white",
     width: 150,
     height: 150,
+  },
+  text: {
+    marginTop: 35,
+    fontSize: 24,
+    fontWeight: 'bold',
+    color: 'orange'
   }
 });
